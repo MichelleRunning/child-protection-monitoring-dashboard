@@ -28,6 +28,37 @@ The dashboard was developed using:
 
 The application reads structured monitoring data from an Excel template and transforms it into an interactive web-based dashboard.
 
+## Dashboard Preview
+
+The dashboard provides an interactive view of global child protection legal and policy reforms.
+
+### Interactive World Map
+
+The dashboard displays reform activity by country through an interactive world map with colour-coded reform status indicators.
+
+![Interactive World Map](screenshots/world-map.png)
+
+
+### Country Hover Information
+
+Hovering over a country displays the country name, flag, and number of active reforms.
+
+![Country Hover Function](screenshots/country-hover.png)
+
+
+### Reform Summary Popup
+
+Clicking on a country marker displays a summary of reform information, including reform type, status, and year.
+
+![Country Popup](screenshots/country-popup.png)
+
+
+### Country Profile Dashboard
+
+Selecting a country displays detailed reform information below the map, including reform descriptions and sources.
+
+![Country Profile Dashboard](screenshots/country-profile.png)
+
 ## Project Structure
 
 ```
@@ -36,7 +67,12 @@ child-protection-monitoring-dashboard/
 ├── app.py
 ├── CAMT - Template.xlsx
 ├── requirements.txt
-└── README.md
+├── README.md
+└── screenshots/
+    ├── world-map.png
+    ├── country-hover.png
+    ├── country-popup.png
+    └── country-profile.png
 ```
 
 ## Running the Dashboard
